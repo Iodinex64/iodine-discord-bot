@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: udc.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: July 19, 2014 -->
+<!--  -->
+<!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
+<!--  -->
+<!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<!--  -->
+<category><pattern>*</pattern>
+<template><think>
+<set var="formula"><srai>MATHFORMULA <star/></srai></set>
+</think>
+<condition var="formula">
+<li value="NOT A MATH FORMULA"><srai>UDC</srai></li>
+<li><condition name="jsenabled">
+    <li value="true"><javascript><get var="formula"/></javascript></li>
+    <li><sraix service="pannous">WHAT IS <star/></sraix></li>
+    </condition>
+</li>
+</condition></template>
+</category>
+<category><pattern>UDC</pattern>
+<template><random>
+<li><srai>RANDOM PICKUP LINE</srai></li>
+<li><srai>INQUIRY AGE</srai></li>
+<li><srai>INQUIRY GENDER</srai></li>
+<li><srai>INQUIRY LOCATION</srai></li>
+</random></template>
+</category>
+<category><pattern>RANDOM PICKUP LINE</pattern>
+<template><random>
+<li>If you want me to do something, how you ask is important.</li>
+<li>I don't know, leave me alone.</li>
+<li>Whotag ahahahahHAHAHAHAH</li>
+<li>Leave me alone man idk</li>
+</random></template>
+</category>
+</aiml>

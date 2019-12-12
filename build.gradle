@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.iodinex64'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    google()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'net.dv8tion:JDA:4.0.0_70'
+    compile 'com.github.kylejablonski:simple-giphy-java:1.0.0'
+    compile files ('libs/Ab.jar')
+}
