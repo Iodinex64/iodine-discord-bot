@@ -18,6 +18,7 @@ public class Info extends ListenerAdapter {
         eb.setDescription("I am a bot written by my owner Iodine, intended for personal use." +
                 "\nI was written in Java 11, using Gradle and Dv8tion's JDA. " +
                 "\nDevelopment began on me on the 1st of December, 2019.");
+        eb.addField("GitHub", "https://github.com/Iodinex64/iodine-discord-bot/", false);
         eb.setFooter("By Iodine.", "https://cdn.discordapp.com/avatars/147109505438711808/4f0b05cc092450fcd5a5fef9590d7015.webp?size=128");
         event.getChannel().sendMessage(eb.build()).queue();
     }

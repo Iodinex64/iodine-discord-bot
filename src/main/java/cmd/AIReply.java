@@ -3,7 +3,6 @@ package cmd;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import org.alicebot.ab.*;
 
-//CHAT BOT WORKS!!! Just need to be able to relocate AIML files
 public class AIReply {
 
     static Chat chatSession;
