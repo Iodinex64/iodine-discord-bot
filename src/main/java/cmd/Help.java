@@ -20,7 +20,7 @@ public class Help {
         eb.addField("!unban", "Unbans a tagged user from the server.", false);
         eb.addField("!tuck", "Tucks a tagged user in. :)", false);
         eb.addField("!help", "Displays this panel of commands", false);
-        eb.addField("Tag the bot to speak to it! It will attempt to hold conversation intelligently.", "", false);
+        eb.addField("!chat", "Have a conversation with me. Or well, try to, at least.", false);
         eb.setFooter("By Iodine.", "https://cdn.discordapp.com/avatars/147109505438711808/4f0b05cc092450fcd5a5fef9590d7015.webp?size=128");
         event.getChannel().sendMessage(eb.build()).queue();
     }

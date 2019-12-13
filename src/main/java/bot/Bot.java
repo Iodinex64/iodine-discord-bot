@@ -12,18 +12,17 @@ import javax.security.auth.login.LoginException;
 
 public class Bot {
 
-    //prefix used to check for commands
-    static String cmdPrefix = "!";
-    static String discordToken = "NjUwMzUyNjk1ODEwNzE5NzQ0.XeeOEw.WQnhoPKSDgo_Qz1hYRG5JRbEINk";
-    static String giphyToken = "0LyEMkppjZQHR75P0KtKLb3Bx7r9rKQ5";
-
     //version of bot to be printed in info
     public static String botVersion = "v1.0";
-
     //reference to bot object
     public static JDA jda;
+    //prefix used to check for commands
+    static String cmdPrefix = "!";
 
     public static void main(String[] args) throws LoginException {
+        //You will need to pass tokens in with cmd: first discord, then giphy.
+        String discordToken = args[0];
+        String giphyToken = args[1];
         AIReply.Init();
         SimpleGiphy.setApiKey(giphyToken);
         jda = new JDABuilder(AccountType.BOT).setToken(discordToken).build();

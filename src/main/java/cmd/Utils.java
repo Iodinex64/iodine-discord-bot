@@ -9,8 +9,6 @@ class Utils {
     }
 
     static String RemoveWholeTag(String message) {
-        String newMessage;
-        newMessage = message.replaceAll("<[@#][!&]?[0-9]+>", "");
-        return newMessage;
+        return message.replaceAll("<[@#][!&]?[0-9]+>", "");
     }
 }

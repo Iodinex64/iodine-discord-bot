@@ -39,7 +39,7 @@
       <recent name="C:\Users\sjdso\Dropbox\iodine-discord-bot\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bot">
+  <component name="RunManager" selected="Gradle.iodine-discord-bot [shadowJar]">
     <configuration name="Bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bot.Bot" />
       <module name="iodine-discord-bot.main" />
@@ -72,8 +72,28 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="iodine-discord-bot [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.iodine-discord-bot [shadowJar]" />
         <item itemvalue="Application.Bot" />
         <item itemvalue="Gradle.iodine-discord-bot [dependencies]" />
       </list>
@@ -101,7 +121,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576165429587</updated>
-      <workItem from="1576165433689" duration="2161000" />
+      <workItem from="1576165433689" duration="3079000" />
+      <workItem from="1576176977545" duration="3227000" />
+      <workItem from="1576182854108" duration="1347000" />
+      <workItem from="1576185340798" duration="374000" />
+      <workItem from="1576250717698" duration="486000" />
+      <workItem from="1576251558239" duration="287000" />
+      <workItem from="1576254488543" duration="3417000" />
     </task>
     <servers />
   </component>
@@ -113,21 +139,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="92" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576165615453" />
-    <state width="1869" height="270" key="GridCell.Tab.0.bottom" timestamp="1576166625097">
+    <state width="1869" height="270" key="GridCell.Tab.0.bottom" timestamp="1576257912024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576166625097" />
-    <state width="1869" height="270" key="GridCell.Tab.0.center" timestamp="1576166625097">
+    <state width="1869" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576257912024" />
+    <state width="1869" height="270" key="GridCell.Tab.0.center" timestamp="1576257912024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576166625097" />
-    <state width="1869" height="270" key="GridCell.Tab.0.left" timestamp="1576166625097">
+    <state width="1869" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576257912024" />
+    <state width="1869" height="270" key="GridCell.Tab.0.left" timestamp="1576257912024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576166625097" />
-    <state width="1869" height="270" key="GridCell.Tab.0.right" timestamp="1576166625097">
+    <state width="1869" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576257912024" />
+    <state width="1869" height="270" key="GridCell.Tab.0.right" timestamp="1576257912024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576166625097" />
+    <state width="1869" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576257912024" />
   </component>
 </project>

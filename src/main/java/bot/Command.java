@@ -2,7 +2,6 @@ package bot;
 
 import cmd.*;
 import net.dv8tion.jda.api.Permission;
-import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
@@ -81,7 +80,7 @@ public class Command extends ListenerAdapter {
             } else if (args[0].equalsIgnoreCase(Bot.cmdPrefix + "help")) {
                 Help.HelpCMD(event);
                 //Bot replies
-            } else if (event.getMessage().getContentRaw().contains(Bot.jda.getSelfUser().getAsMention())) {
+            } else if (args[0].equalsIgnoreCase(Bot.cmdPrefix + "chat")) {
                 AIReply.CleverReply(event);
             }
         } catch (Exception e) {

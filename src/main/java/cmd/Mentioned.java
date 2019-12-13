@@ -4,6 +4,7 @@ import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class Mentioned extends ListenerAdapter {
+    //CURRENTLY UNUSED: I replaced this dumb stuff with AIML bot B)
     //reply priority:
     //hello > goodbye > question > generic
     public static void MentionedCMD(MessageReceivedEvent event) {
