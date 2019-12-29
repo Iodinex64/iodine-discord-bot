@@ -39,7 +39,7 @@
       <recent name="C:\Users\sjdso\Dropbox\iodine-discord-bot\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.iodine-discord-bot [shadowJar]">
+  <component name="RunManager" selected="Application.Bot">
     <configuration name="Bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bot.Bot" />
       <module name="iodine-discord-bot.main" />
@@ -128,7 +128,10 @@
       <workItem from="1576250717698" duration="486000" />
       <workItem from="1576251558239" duration="287000" />
       <workItem from="1576254488543" duration="3417000" />
-      <workItem from="1576258601214" duration="46000" />
+      <workItem from="1576258601214" duration="180000" />
+      <workItem from="1576359411300" duration="309000" />
+      <workItem from="1576412434065" duration="159000" />
+      <workItem from="1577368177039" duration="17000" />
     </task>
     <servers />
   </component>
@@ -140,21 +143,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="92" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576165615453" />
-    <state width="1869" height="270" key="GridCell.Tab.0.bottom" timestamp="1576258679519">
+    <state width="1869" height="270" key="GridCell.Tab.0.bottom" timestamp="1576412518272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576258679519" />
-    <state width="1869" height="270" key="GridCell.Tab.0.center" timestamp="1576258679518">
+    <state width="1869" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576412518272" />
+    <state width="1869" height="270" key="GridCell.Tab.0.center" timestamp="1576412518272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576258679518" />
-    <state width="1869" height="270" key="GridCell.Tab.0.left" timestamp="1576258679518">
+    <state width="1869" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576412518272" />
+    <state width="1869" height="270" key="GridCell.Tab.0.left" timestamp="1576412518272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576258679518" />
-    <state width="1869" height="270" key="GridCell.Tab.0.right" timestamp="1576258679519">
+    <state width="1869" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576412518272" />
+    <state width="1869" height="270" key="GridCell.Tab.0.right" timestamp="1576412518272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1869" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576258679519" />
+    <state width="1869" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576412518272" />
   </component>
 </project>
